@@ -1,7 +1,11 @@
+import ArticlesSection from "@/components/ArticlesSection";
 import EmailSection from "@/components/EmailSection";
 import FeaturesSection from "@/components/FeaturesSection";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
+import IntegretionSection from "@/components/IntegretionSection";
 import Navbar from "@/components/Navbar";
+import TestimonialSection from "@/components/TestimonialSection";
 import TutorialSection from "@/components/TutorialSection";
 import Image from "next/image";
 
@@ -50,6 +54,10 @@ export default function Home() {
       <TutorialSection data={tutorial[2]}/>
       <EmailSection />
       <FeaturesSection />
+      <IntegretionSection />
+      <TestimonialSection />
+      <ArticlesSection />
+      <Footer />
     </div>
   );
 }
